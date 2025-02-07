@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Dummy validation (Replace with actual authentication logic)
         if (username === "" && password === "") {
             alert("Login successful!");
-            window.location.href = "LTmenupage.html"; // Redirect to menu page
+            window.location.href = "../LabTechMenu/LTmenupage.html"; // Redirect to menu page
         } else {
             alert("Invalid username or password.");
         }
