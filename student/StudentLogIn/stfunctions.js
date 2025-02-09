@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("Login successful!");
             window.location.href = "../StudentMenu/stmenupage.html"; // Adjust the path
         } else {
-            alert("Please enter a username.");
+            alert("Please enter UP Mail.");
         }
     });
 });

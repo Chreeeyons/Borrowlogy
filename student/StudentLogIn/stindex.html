@@ -3,20 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Borrowlogy</title>
+    <title>Log in | Borrowlogy</title>
     <link rel="stylesheet" href="stvisuals.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form>
-            <div class="input-group">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username"> <!--required-->
+    <div class="body-top-border"></div>
+    <div class="body-bottom-border"></div>
+    <div class="login-page">
+        <div class="left-side">
+            <style>
+                body {
+                    background-image: url('/images/backdrop.png');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                }
+                </style>
+        </div>    
+
+        <div class="right-side">
+            <img src="/images/Borrowlogy-logo.png" alt="Borrowlogy Logo" class="logo-img">
+            <p class="login-text">LOG IN</p>
+        
+            <div class="form-container">
+                <form>
+                    <div class="input-group">
+                        <label for="username"><strong>UP Mail</strong></label>
+                        <input type="text" id="username" name="username">
+                    </div>
+                    <button type="submit" class="login-button">LOG IN</button>
+                </form>
             </div>
-            <button type="submit">Login</button>
-        </form>
-    </div>
+        </div>
     <script src="stfunctions.js"></script>
 </body>
 </html>
