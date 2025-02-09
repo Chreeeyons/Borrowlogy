@@ -8,16 +8,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="body-top-border"></div>
-    <div class="body-bottom-border"></div>
     <div class="login-page">
         <div class="left-side">
             <style>
                 body {
-                    background-image: url('/images/backdrop.png');
+                    background-image: url('/images/backdrop2.png');
                     background-repeat: no-repeat;
                     background-attachment: fixed;
                     background-size: cover;
+                    background-size: 100vw 100vh;
+                }
+                @media (max-width: 768px){
+                    body{
+                        background-size: contain;
+                        background-attachment: scroll;
+                    }
                 }
                 </style>
         </div>    
